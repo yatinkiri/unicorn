@@ -5,6 +5,13 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 <title>Login</title>
 <style>
 #header {
@@ -33,15 +40,34 @@
 </head>
 <script src="js/Login.js"></script>
 <body >
-
-<div id="header">
-<table>
-<tr>
-<td><img src="http://www.toyota.com/toyota-owners-online-theme/images/entune/movietix-logo.png" alt="logo" width="68" height="68" border="0"></td>
-<td><h1>UNC MOVIES</h1></td>
-</tr>
-</table>
-</div>
+<nav class="navbar navbar-default">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-2">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button> -->
+          <img class="navbar-brand" src="http://www.toyota.com/toyota-owners-online-theme/images/entune/movietix-logo.png" alt="logo" width="58" height="68" border="0">
+          <a class="navbar-brand" href="#">UNC MOVIES</a>
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-2">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.jsp">Home</a></li>
+            
+            <li>
+              <a href="#">Sign In</a>
+            </li>
+          </ul>
+          
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+    
 <div id="section">
 <h2 align="center">Login</h2>
 <form name="LoginForm" action="/SpringMVC/login" method="post">
@@ -69,9 +95,15 @@
             </center>
 </form>
 </div>
-<div id="footer">
- SSDI Team 1
-</div>
-
+<div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text pull-right">© 2015 - SSDI Team - 1
+           
+      </p>
+      
+    </div>
+    
+    
+  </div>
 </body>
 </html>

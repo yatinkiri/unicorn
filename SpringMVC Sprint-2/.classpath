@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" path="src/main/java"/>
+	<classpathentry excluding="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring jars"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_40">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Dakshinya/SSDI Project Softwares/com.mysql.jdbc_5.1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dakshinya/Workspace/jstl-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-java-2.41.0/selenium-2.41.0/selenium-java-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-java-2.41.0/selenium-2.41.0/selenium-java-2.41.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Selenium/selenium-server-standalone-2.41.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dakshinya/Workspace/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Dakshinya/Desktop/ajax4jsf-1.0.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
